@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        GCR_CREDENTIALS_ID = 'haiders_secret_file' // The ID you provided in Jenkins credentials
+        GCR_CREDENTIALS_ID = 'haiders_secret_file' // The ID you provided in Jenkins credential
         IMAGE_NAME = 'test-build-1'
         GCR_URL = 'gcr.io/lbg-mea-16'
     }
